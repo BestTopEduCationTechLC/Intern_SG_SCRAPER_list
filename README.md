@@ -26,9 +26,21 @@ Before running the code, please follow the demo to complete the steps below to s
 
 Selenium and Chrome Driver are useful for scraping information from the Internet.
 
+- Make sure your Chrome is up to date.
+- Download [Chrome Driver](https://googlechromelabs.github.io/chrome-for-testing/#stable).
+- If you are using Windows, copy the URL for the *chromedriver win32* or *win64*.
+- If you are using a Mac, copy the URL for the *chromedriver mac-x64*.
+- Paste the URL in your browser, and a ZIP file will be downloaded automatically.
+- Unzip the file and place the entire folder into your C drive.
 
+### 2. Gain a basic understanding of the code
 
+There are seven functions inside the first code cell. The introduction to each function is as follows:
 
+- **create_chrome_driver(headless=True)**
+  This function is used to set up Chrome options. It will return a Chrome Driver
+  in headless mode. This mode enables the fetching process to be faster.
 
-
+- **extract_contact_info(detail_soup)**
+       
 
