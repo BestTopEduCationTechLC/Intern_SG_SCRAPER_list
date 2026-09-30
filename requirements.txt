@@ -1,0 +1,9 @@
+# Packages needed by internsg.com_search.ipynb (Python 3.9 or newer)
+# Install them with:  pip install -r requirements.txt
+
+requests>=2.31,<3          # downloads the InternSG and company web pages
+beautifulsoup4>=4.12,<5    # reads the HTML of those pages (imported as "bs4")
+pandas>=2.0,<4             # shows the results and reads the existing Excel file
+openpyxl>=3.1,<4           # reads and writes the .xlsx file
+selenium>=4.11,<5          # controls Chrome (4.11+ downloads the matching Chrome driver by itself)
+ipykernel>=6.25,<8         # lets Visual Studio Code run the Jupyter notebook

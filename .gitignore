@@ -1,0 +1,7 @@
+# Virtual environment created by the setup steps in the README
+venv/
+.venv/
+
+# Python / Jupyter caches
+__pycache__/
+.ipynb_checkpoints/
